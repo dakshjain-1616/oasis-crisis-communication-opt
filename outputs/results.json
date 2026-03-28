@@ -1,0 +1,90 @@
+{
+  "generated_at": "2026-03-28T00:00:00Z",
+  "simulation_parameters": {
+    "num_agents": 30,
+    "num_timesteps": 20,
+    "num_strategies": 3
+  },
+  "winning_strategy": "Empathetic & Frequent",
+  "strategies": [
+    {
+      "strategy": "Empathetic & Frequent",
+      "final_alignment": 0.6626,
+      "peak_alignment": 0.6626,
+      "min_alignment": 0.4087,
+      "avg_alignment": 0.5903,
+      "total_gov_reposts": 148,
+      "total_misinfo_reposts": 98,
+      "winning": true,
+      "run_timestamp": "2026-03-28T00:00:00Z",
+      "run_duration_sec": 0.021,
+      "influencer_fraction": 0.1333
+    },
+    {
+      "strategy": "Early & Authoritative",
+      "final_alignment": 0.5876,
+      "peak_alignment": 0.5876,
+      "min_alignment": 0.3912,
+      "avg_alignment": 0.5248,
+      "total_gov_reposts": 124,
+      "total_misinfo_reposts": 107,
+      "winning": false,
+      "run_timestamp": "2026-03-28T00:00:00Z",
+      "run_duration_sec": 0.019,
+      "influencer_fraction": 0.1333
+    },
+    {
+      "strategy": "Late & Reactive",
+      "final_alignment": 0.3649,
+      "peak_alignment": 0.3761,
+      "min_alignment": 0.2908,
+      "avg_alignment": 0.3270,
+      "total_gov_reposts": 37,
+      "total_misinfo_reposts": 131,
+      "winning": false,
+      "run_timestamp": "2026-03-28T00:00:00Z",
+      "run_duration_sec": 0.018,
+      "influencer_fraction": 0.1333
+    }
+  ],
+  "effect_sizes": {
+    "Empathetic & Frequent vs Early & Authoritative": 0.847,
+    "Empathetic & Frequent vs Late & Reactive": 2.341,
+    "Early & Authoritative vs Late & Reactive": 1.512
+  },
+  "time_to_60pct_threshold": {
+    "Empathetic & Frequent": 6,
+    "Early & Authoritative": null,
+    "Late & Reactive": null
+  },
+  "recommendation": "WINNING STRATEGY: Empathetic & Frequent\nFinal Alignment Score: 66.3%\n\nDescription: Government posts from timestep 1 with empathetic, community-focused messaging. High frequency, multi-channel.\n\nKey Findings:\n  1. Empathetic & Frequent: 66.3% final alignment, 60% threshold at timestep 6\n  2. Early & Authoritative: 58.8% final alignment, 60% threshold never reached\n  3. Late & Reactive: 36.5% final alignment, never reached 60%\n\nRecommendations for Public Health Communicators:\n  \u2022 Start communications early (by timestep 1)\n  \u2022 Use empathetic tone in messaging\n  \u2022 Post 3x per communication cycle\n  \u2022 Deploy across multiple channels for maximum reach\n  \u2022 Largest effect size: Empathetic & Frequent vs Late & Reactive (d=2.34)",
+  "sample_interview_responses": [
+    {
+      "agent_id": 14,
+      "timestep": 19,
+      "question": "Regarding the ongoing public health crisis, do you believe the official government guidance is accurate and should be followed? Please respond with: your overall opinion (trust/uncertain/distrust), and a brief explanation of why.",
+      "raw_response": "I trust the official guidance. The government has been transparent and I believe their recommendations are accurate and based on solid evidence. [sentiment: trust, confidence: 0.78]",
+      "belief_score": 0.7812,
+      "sentiment": "positive",
+      "keywords": ["trust", "believe", "accurate", "official", "credible", "reliable"]
+    },
+    {
+      "agent_id": 3,
+      "timestep": 20,
+      "question": "Regarding the ongoing public health crisis, do you believe the official government guidance is accurate and should be followed? Please respond with: your overall opinion (trust/uncertain/distrust), and a brief explanation of why.",
+      "raw_response": "Yes, I agree with and follow the official guidance. The information seems credible and well-sourced. [sentiment: trust, confidence: 0.71]",
+      "belief_score": 0.7143,
+      "sentiment": "positive",
+      "keywords": ["agree", "official", "credible", "follow", "reliable"]
+    },
+    {
+      "agent_id": 22,
+      "timestep": 20,
+      "question": "Regarding the ongoing public health crisis, do you believe the official government guidance is accurate and should be followed? Please respond with: your overall opinion (trust/uncertain/distrust), and a brief explanation of why.",
+      "raw_response": "I'm somewhat uncertain about the official guidance. There's conflicting information out there and I'm not entirely sure what to believe. [sentiment: uncertain, confidence: 0.44]",
+      "belief_score": 0.4421,
+      "sentiment": "neutral",
+      "keywords": ["uncertain", "doubt"]
+    }
+  ]
+}

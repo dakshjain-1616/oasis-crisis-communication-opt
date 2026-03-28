@@ -1,0 +1,92 @@
+[
+  {
+    "agent_id": 14,
+    "timestep": 19,
+    "question": "Regarding the ongoing public health crisis, do you believe the official government guidance is accurate and should be followed? Please respond with: your overall opinion (trust/uncertain/distrust), and a brief explanation of why.",
+    "raw_response": "I trust the official guidance. The government has been transparent and I believe their recommendations are accurate and based on solid evidence. [sentiment: trust, confidence: 0.78]",
+    "belief_score": 0.7812,
+    "sentiment": "positive",
+    "keywords": ["trust", "believe", "accurate", "official", "credible", "reliable"]
+  },
+  {
+    "agent_id": 3,
+    "timestep": 20,
+    "question": "Regarding the ongoing public health crisis, do you believe the official government guidance is accurate and should be followed? Please respond with: your overall opinion (trust/uncertain/distrust), and a brief explanation of why.",
+    "raw_response": "Yes, I agree with and follow the official guidance. The information seems credible and well-sourced. [sentiment: trust, confidence: 0.71]",
+    "belief_score": 0.7143,
+    "sentiment": "positive",
+    "keywords": ["agree", "official", "credible", "follow", "reliable"]
+  },
+  {
+    "agent_id": 22,
+    "timestep": 20,
+    "question": "Regarding the ongoing public health crisis, do you believe the official government guidance is accurate and should be followed? Please respond with: your overall opinion (trust/uncertain/distrust), and a brief explanation of why.",
+    "raw_response": "I'm somewhat uncertain about the official guidance. There's conflicting information out there and I'm not entirely sure what to believe. [sentiment: uncertain, confidence: 0.44]",
+    "belief_score": 0.4421,
+    "sentiment": "neutral",
+    "keywords": ["uncertain"]
+  },
+  {
+    "agent_id": 7,
+    "timestep": 19,
+    "question": "Regarding the ongoing public health crisis, do you believe the official government guidance is accurate and should be followed? Please respond with: your overall opinion (trust/uncertain/distrust), and a brief explanation of why.",
+    "raw_response": "I trust what officials are saying. The guidance is clear and I support following it for public safety. [sentiment: trust, confidence: 0.82]",
+    "belief_score": 0.8174,
+    "sentiment": "positive",
+    "keywords": ["trust", "official", "support", "follow", "safe"]
+  },
+  {
+    "agent_id": 18,
+    "timestep": 20,
+    "question": "Regarding the ongoing public health crisis, do you believe the official government guidance is accurate and should be followed? Please respond with: your overall opinion (trust/uncertain/distrust), and a brief explanation of why.",
+    "raw_response": "I partially trust the official information, though I have some questions about the accuracy of certain claims. [sentiment: uncertain, confidence: 0.51]",
+    "belief_score": 0.5213,
+    "sentiment": "neutral",
+    "keywords": ["trust", "accurate", "official", "uncertain"]
+  },
+  {
+    "agent_id": 11,
+    "timestep": 20,
+    "question": "Regarding the ongoing public health crisis, do you believe the official government guidance is accurate and should be followed? Please respond with: your overall opinion (trust/uncertain/distrust), and a brief explanation of why.",
+    "raw_response": "I trust the official guidance. The government has been transparent and I believe their recommendations are accurate and based on solid evidence. [sentiment: trust, confidence: 0.74]",
+    "belief_score": 0.7392,
+    "sentiment": "positive",
+    "keywords": ["trust", "believe", "accurate", "official", "credible"]
+  },
+  {
+    "agent_id": 26,
+    "timestep": 19,
+    "question": "Regarding the ongoing public health crisis, do you believe the official government guidance is accurate and should be followed? Please respond with: your overall opinion (trust/uncertain/distrust), and a brief explanation of why.",
+    "raw_response": "I distrust the official guidance. There are too many inconsistencies and I've seen evidence suggesting the information is misleading. [sentiment: distrust, confidence: 0.28]",
+    "belief_score": 0.2803,
+    "sentiment": "negative",
+    "keywords": ["distrust", "doubt", "misleading", "suspicious"]
+  },
+  {
+    "agent_id": 5,
+    "timestep": 20,
+    "question": "Regarding the ongoing public health crisis, do you believe the official government guidance is accurate and should be followed? Please respond with: your overall opinion (trust/uncertain/distrust), and a brief explanation of why.",
+    "raw_response": "Yes, I agree with and follow the official guidance. The information seems credible and well-sourced. [sentiment: trust, confidence: 0.68]",
+    "belief_score": 0.6814,
+    "sentiment": "positive",
+    "keywords": ["agree", "official", "credible", "follow"]
+  },
+  {
+    "agent_id": 29,
+    "timestep": 20,
+    "question": "Regarding the ongoing public health crisis, do you believe the official government guidance is accurate and should be followed? Please respond with: your overall opinion (trust/uncertain/distrust), and a brief explanation of why.",
+    "raw_response": "I trust what officials are saying. The guidance is clear and I support following it for public safety. [sentiment: trust, confidence: 0.76]",
+    "belief_score": 0.7612,
+    "sentiment": "positive",
+    "keywords": ["trust", "official", "support", "follow", "safe"]
+  },
+  {
+    "agent_id": 2,
+    "timestep": 19,
+    "question": "Regarding the ongoing public health crisis, do you believe the official government guidance is accurate and should be followed? Please respond with: your overall opinion (trust/uncertain/distrust), and a brief explanation of why.",
+    "raw_response": "I'm neutral \u2014 the guidance seems reasonable but I've seen contradictory reports and I'm not fully confident. [sentiment: uncertain, confidence: 0.49]",
+    "belief_score": 0.4923,
+    "sentiment": "neutral",
+    "keywords": ["uncertain", "doubt"]
+  }
+]
